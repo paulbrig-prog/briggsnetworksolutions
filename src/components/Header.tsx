@@ -42,8 +42,8 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button variant="hero" size="default" asChild>
-              <a href="#contact">Free Discovery Call</a>
+          <Button variant="hero" size="default" asChild>
+              <a href="https://calendar.app.google/C7N8GTXzNGus3MnZ6" target="_blank" rel="noopener noreferrer">Free Discovery Call</a>
             </Button>
           </div>
 
@@ -72,7 +72,7 @@ const Header = () => {
                 </a>
               ))}
               <Button variant="hero" size="default" className="mt-2" asChild>
-                <a href="#contact" onClick={() => setIsMenuOpen(false)}>
+                <a href="https://calendar.app.google/C7N8GTXzNGus3MnZ6" target="_blank" rel="noopener noreferrer" onClick={() => setIsMenuOpen(false)}>
                   Free Discovery Call
                 </a>
               </Button>
