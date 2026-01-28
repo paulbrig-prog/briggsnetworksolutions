@@ -41,7 +41,7 @@ const Contact = () => {
             </p>
 
             <Button variant="hero" size="xl" className="mb-8" asChild>
-              <a href="mailto:paulbrig@gmail.com?subject=Free Discovery Call Request" className="group">
+              <a href="https://calendar.app.google/C7N8GTXzNGus3MnZ6" target="_blank" rel="noopener noreferrer" className="group">
                 Book Your Free Call
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>

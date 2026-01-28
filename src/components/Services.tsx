@@ -72,7 +72,7 @@ const Services = () => {
             </p>
           </div>
           <Button variant="hero" size="lg" asChild>
-            <a href="#contact">
+            <a href="https://calendar.app.google/C7N8GTXzNGus3MnZ6" target="_blank" rel="noopener noreferrer">
               Book Now — It's Free
               <ArrowRight className="w-4 h-4" />
             </a>
