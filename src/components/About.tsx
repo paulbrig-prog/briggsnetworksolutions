@@ -14,14 +14,24 @@ const About = () => {
             <h2 className="font-display font-bold text-3xl sm:text-4xl md:text-5xl text-foreground mb-6">
               Making AI Accessible for Everyone
             </h2>
-            <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              BRIGGS NETWORK SOLUTIONS is a UK-based consultancy that helps small businesses 
-              and charities adopt artificial intelligence to make daily work faster, easier, 
-              and more efficient.
+            <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+              Paul is an AI systems architect and technology leader with 25+ years of experience 
+              building the digital infrastructure that keeps organisations running efficiently.
+            </p>
+            <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+              After a long career designing secure network and cloud environments for major companies, 
+              he shifted into AI workflow design and automation — crafting practical systems that 
+              remove repetitive admin and bring clarity to complex operations.
+            </p>
+            <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+              Through Briggs Network Solutions, Paul specialises in transforming messy, time-consuming 
+              processes into simple, reliable, AI-powered workflows that free teams to focus on 
+              impact rather than manual tasks.
             </p>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              By designing custom GPTs and workflow automations, we enable organisations to 
-              save time, reduce admin, and improve productivity — without needing technical expertise.
+              Paul believes AI should feel supportive, accessible, and genuinely useful. His mission 
+              is to give small businesses and charities tools that save time, reduce costs, and help 
+              overstretched teams work with confidence.
             </p>
 
             {/* Founder Info */}
