@@ -16,7 +16,7 @@ const Hero = () => {
           <div className="inline-flex items-center gap-2 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-4 py-2 mb-8 animate-fade-in">
             <Sparkles className="w-4 h-4 text-accent" />
             <span className="text-sm font-medium text-primary-foreground/90">
-              AI Solutions for UK Businesses
+              AI Solutions for the World
             </span>
           </div>
 
