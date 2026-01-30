@@ -1,4 +1,5 @@
 import { MapPin, Mail, Target, Eye } from "lucide-react";
+import paulHeadshot from "@/assets/paul-headshot.png";
 
 const About = () => {
   return (
@@ -26,9 +27,11 @@ const About = () => {
             {/* Founder Info */}
             <div className="bg-card rounded-xl p-6 border border-border shadow-soft">
               <div className="flex items-center gap-4 mb-4">
-                <div className="w-14 h-14 rounded-full accent-gradient flex items-center justify-center">
-                  <span className="text-accent-foreground font-display font-bold text-xl">PB</span>
-                </div>
+                <img 
+                  src={paulHeadshot} 
+                  alt="Paul Briggs" 
+                  className="w-14 h-14 rounded-full object-cover"
+                />
                 <div>
                   <h3 className="font-display font-bold text-lg text-foreground">Paul Briggs</h3>
                   <p className="text-sm text-muted-foreground">Founder</p>
