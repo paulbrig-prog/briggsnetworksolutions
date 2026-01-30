@@ -1,4 +1,5 @@
 import { Clock, Wallet, Brain, HeartHandshake, Lightbulb, Shield } from "lucide-react";
+import benefitsImage from "@/assets/benefits-automation.jpg";
 
 const Benefits = () => {
   const benefits = [
@@ -37,18 +38,28 @@ const Benefits = () => {
   return (
     <section id="benefits" className="py-24 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="inline-block text-accent font-semibold text-sm uppercase tracking-wider mb-4">
-            Why Choose Us
-          </span>
-          <h2 className="font-display font-bold text-3xl sm:text-4xl md:text-5xl text-foreground mb-6">
-            Built for Businesses Like Yours
-          </h2>
-          <p className="text-lg text-muted-foreground">
-            We understand the challenges small businesses and charities face. Our solutions are designed 
-            to deliver real value without the complexity.
-          </p>
+        {/* Section Header with Image */}
+        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+          <div className="text-center lg:text-left">
+            <span className="inline-block text-accent font-semibold text-sm uppercase tracking-wider mb-4">
+              Why Choose Us
+            </span>
+            <h2 className="font-display font-bold text-3xl sm:text-4xl md:text-5xl text-foreground mb-6">
+              Built for Businesses Like Yours
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              We understand the challenges small businesses and charities face. Our solutions are designed 
+              to deliver real value without the complexity.
+            </p>
+          </div>
+          <div className="relative">
+            <img 
+              src={benefitsImage} 
+              alt="AI automation and workflow technology" 
+              className="w-full rounded-2xl shadow-elevated"
+            />
+            <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-primary/20 to-transparent" />
+          </div>
         </div>
 
         {/* Benefits Grid */}

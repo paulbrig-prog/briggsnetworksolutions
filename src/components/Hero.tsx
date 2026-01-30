@@ -1,9 +1,20 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles, Clock, TrendingUp } from "lucide-react";
+import heroImage from "@/assets/hero-business.jpg";
 
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center hero-gradient overflow-hidden">
+      {/* Background Image with Overlay */}
+      <div className="absolute inset-0">
+        <img 
+          src={heroImage} 
+          alt="Business team collaborating with AI technology" 
+          className="w-full h-full object-cover opacity-20"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-primary/80 via-primary/90 to-primary" />
+      </div>
+
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-accent rounded-full blur-[100px]" />

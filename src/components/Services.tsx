@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Check, Zap, Rocket, Users, GraduationCap, ArrowRight } from "lucide-react";
+import servicesImage from "@/assets/services-collaboration.jpg";
 
 const Services = () => {
   const tiers = [
@@ -61,22 +62,31 @@ const Services = () => {
           </p>
         </div>
 
-        {/* Free Discovery Call Banner */}
-        <div className="bg-muted rounded-2xl p-6 sm:p-8 mb-12 flex flex-col sm:flex-row items-center justify-between gap-6">
-          <div className="text-center sm:text-left">
-            <h3 className="font-display font-bold text-xl text-foreground mb-2">
-              Start with a Free 15-Minute Discovery Call
-            </h3>
-            <p className="text-muted-foreground">
-              No obligation. Let's explore how AI can help your business.
-            </p>
+        {/* Free Discovery Call Banner with Image */}
+        <div className="bg-muted rounded-2xl overflow-hidden mb-12 flex flex-col lg:flex-row items-stretch">
+          <div className="lg:w-1/3 h-48 lg:h-auto">
+            <img 
+              src={servicesImage} 
+              alt="Consultant helping business owner" 
+              className="w-full h-full object-cover"
+            />
           </div>
-          <Button variant="hero" size="lg" asChild>
-            <a href="https://calendar.app.google/C7N8GTXzNGus3MnZ6" target="_blank" rel="noopener noreferrer">
-              Book Now — It's Free
-              <ArrowRight className="w-4 h-4" />
-            </a>
-          </Button>
+          <div className="flex-1 p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div className="text-center sm:text-left">
+              <h3 className="font-display font-bold text-xl text-foreground mb-2">
+                Start with a Free 15-Minute Discovery Call
+              </h3>
+              <p className="text-muted-foreground">
+                No obligation. Let's explore how AI can help your business.
+              </p>
+            </div>
+            <Button variant="hero" size="lg" asChild>
+              <a href="https://calendar.app.google/C7N8GTXzNGus3MnZ6" target="_blank" rel="noopener noreferrer">
+                Book Now — It's Free
+                <ArrowRight className="w-4 h-4" />
+              </a>
+            </Button>
+          </div>
         </div>
 
         {/* Pricing Cards */}
