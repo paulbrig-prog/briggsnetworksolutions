@@ -62,20 +62,18 @@ const Hero = () => {
 
           {/* GoFundraise Partnership */}
           <div className="mb-16 animate-slide-up" style={{ animationDelay: "0.25s" }}>
-            <div className="inline-flex flex-col items-center gap-3 bg-primary-foreground/10 backdrop-blur-sm rounded-xl px-6 py-4 border border-primary-foreground/15">
-              <p className="text-sm text-primary-foreground/80 font-medium">
-                🎯 Looking for charity funding intelligence or grant research? All funding-related work is delivered through our partner:
-              </p>
-              <a 
-                href="https://gofundraise.ai" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="inline-flex items-center gap-2 text-accent hover:text-accent/80 font-bold text-base transition-colors group"
-              >
-                GoFundraise.ai — Explore Funding Intelligence
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </a>
-            </div>
+            <p className="text-sm text-primary-foreground/60 mb-2">
+              For specialist charity funding intelligence and grant research solutions, I work in partnership with GoFundraise.ai.
+            </p>
+            <a 
+              href="https://gofundraise.ai" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="inline-flex items-center gap-2 text-accent hover:text-accent/80 font-semibold text-sm transition-colors group"
+            >
+              Explore Funding Intelligence → GoFundraise.ai
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            </a>
           </div>
 
           {/* Trust Indicators */}
