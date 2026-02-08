@@ -49,7 +49,11 @@ const Benefits = () => {
             </h2>
             <p className="text-lg text-muted-foreground">
               We understand the challenges small businesses and charities face. Our solutions are designed 
-              to deliver real value without the complexity.
+              to deliver real value without the complexity. For charities, we partner with{" "}
+              <a href="https://gofundraise.ai" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">
+                GoFundraise.ai
+              </a>{" "}
+              to provide specialist funding intelligence and grant research.
             </p>
           </div>
           <div className="relative">
@@ -90,7 +94,7 @@ const Benefits = () => {
           <div className="grid sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
             {[
               { label: "Small Businesses", sublabel: "1–50 employees" },
-              { label: "Charities & Nonprofits", sublabel: "Making a difference" },
+              { label: "Charities & Nonprofits", sublabel: "In partnership with GoFundraise.ai" },
               { label: "Entrepreneurs", sublabel: "Ready to scale" },
             ].map((item) => (
               <div key={item.label} className="bg-primary-foreground/10 rounded-xl p-6 backdrop-blur-sm">

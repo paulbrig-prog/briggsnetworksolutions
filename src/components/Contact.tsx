@@ -63,7 +63,7 @@ const Contact = () => {
 
           {/* Trust Message */}
           <p className="text-center text-primary-foreground/60 text-sm mt-8">
-            Trusted by small businesses and charities across the UK
+            Trusted by small businesses and charities across the UK · Charity work in partnership with GoFundraise.ai
           </p>
         </div>
       </div>

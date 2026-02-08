@@ -31,7 +31,11 @@ const About = () => {
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
               Paul believes AI should feel supportive, accessible, and genuinely useful. His mission 
               is to give small businesses and charities tools that save time, reduce costs, and help 
-              overstretched teams work with confidence.
+              overstretched teams work with confidence. For charity-specific funding intelligence 
+              and grant research, Paul works in partnership with{" "}
+              <a href="https://gofundraise.ai" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">
+                GoFundraise.ai
+              </a>.
             </p>
 
             {/* Founder Info */}
