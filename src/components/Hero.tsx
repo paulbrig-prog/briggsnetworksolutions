@@ -33,53 +33,47 @@ const Hero = () => {
 
           {/* Main Headline */}
           <h1 className="font-display font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-primary-foreground mb-6 leading-tight animate-slide-up">
-            AI Workflow & Automation
-            <span className="block text-gradient">for Growing Organisations</span>
+            AI Workflow and Automation
+            <span className="block text-gradient">for Ambitious Organisations</span>
           </h1>
 
           {/* Subheadline */}
           <p className="text-lg sm:text-xl text-primary-foreground/80 mb-4 max-w-2xl mx-auto leading-relaxed animate-slide-up" style={{ animationDelay: "0.1s" }}>
             I help organisations modernise their operations using practical AI, 
-            workflow automation, and intelligent systems integration.
+            intelligent automation, and structured systems design.
           </p>
           <p className="text-lg sm:text-xl text-primary-foreground/70 mb-10 max-w-2xl mx-auto leading-relaxed animate-slide-up" style={{ animationDelay: "0.15s" }}>
-            From small businesses to mission-driven organisations, I design solutions that 
-            reduce repetitive work, improve decision making, and unlock growth.
+            From small businesses to mission-driven organisations, I build solutions that 
+            remove repetitive work, improve visibility, and unlock growth.
           </p>
 
+          {/* GoFundraise Partnership */}
+          <div className="mb-10 animate-slide-up" style={{ animationDelay: "0.2s" }}>
+            <p className="text-sm text-primary-foreground/60">
+              For specialist charity funding intelligence and grant research, I work in partnership with GoFundraise.ai.
+            </p>
+          </div>
+
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6 animate-slide-up" style={{ animationDelay: "0.2s" }}>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 animate-slide-up" style={{ animationDelay: "0.25s" }}>
             <Button variant="hero" size="xl" asChild>
               <a href="https://calendar.app.google/C7N8GTXzNGus3MnZ6" target="_blank" rel="noopener noreferrer" className="group">
-                Book Free Discovery Call
+                Book a Strategy Call
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
             </Button>
             <Button variant="heroOutline" size="xl" asChild>
-              <a href="#services">View Services</a>
+              <a href="https://gofundraise.ai" target="_blank" rel="noopener noreferrer" className="group">
+                Explore Funding Intelligence
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </a>
             </Button>
-          </div>
-
-          {/* GoFundraise Partnership */}
-          <div className="mb-16 animate-slide-up" style={{ animationDelay: "0.25s" }}>
-            <p className="text-sm text-primary-foreground/60 mb-2">
-              For specialist charity funding intelligence and grant research solutions, I work in partnership with GoFundraise.ai.
-            </p>
-            <a 
-              href="https://gofundraise.ai" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="inline-flex items-center gap-2 text-accent hover:text-accent/80 font-semibold text-sm transition-colors group"
-            >
-              Explore Funding Intelligence → GoFundraise.ai
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </a>
           </div>
 
           {/* Trust Indicators */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: "0.3s" }}>
             {[
-              { icon: Clock, label: "15-Min Free Consultation", sublabel: "No obligation" },
+              { icon: Clock, label: "Free Strategy Call", sublabel: "No obligation" },
               { icon: TrendingUp, label: "Proven Results", sublabel: "Save time & costs" },
               { icon: Sparkles, label: "Custom AI Solutions", sublabel: "Tailored to you" },
             ].map((item, index) => (

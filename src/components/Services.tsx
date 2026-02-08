@@ -1,28 +1,28 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Bot, Workflow, Users, Lightbulb } from "lucide-react";
+import { ArrowRight, Brain, Workflow, Link2, BarChart3, HeartHandshake } from "lucide-react";
 import servicesImage from "@/assets/services-collaboration.jpg";
 
 const Services = () => {
   const services = [
     {
-      icon: Bot,
-      title: "AI Workflow Design",
-      description: "Custom AI-powered workflows that automate repetitive tasks and streamline your daily operations.",
+      icon: Brain,
+      title: "AI Strategy & Implementation",
+      description: "Practical AI adoption tailored to your organisation. Use cases, workflow mapping, opportunity design.",
     },
     {
       icon: Workflow,
-      title: "Process Automation",
-      description: "Transform complex, time-consuming processes into simple, reliable automated systems.",
+      title: "Workflow Automation",
+      description: "Automating repetitive tasks across CRM, finance, reporting, and operations.",
     },
     {
-      icon: Users,
-      title: "Team Training",
-      description: "Hands-on workshops to help your team confidently use AI tools and get the most from your new systems.",
+      icon: Link2,
+      title: "Systems Integration",
+      description: "Connecting tools so data flows cleanly between platforms. No more manual duplication.",
     },
     {
-      icon: Lightbulb,
-      title: "AI Strategy Consulting",
-      description: "Expert guidance on where AI can make the biggest impact in your business, with a clear roadmap to get there.",
+      icon: BarChart3,
+      title: "Data & Reporting Design",
+      description: "Dashboards, structured reporting, decision support systems.",
     },
   ];
 
@@ -54,10 +54,10 @@ const Services = () => {
           <div className="flex-1 p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6">
             <div className="text-center sm:text-left">
               <h3 className="font-display font-bold text-xl text-foreground mb-2">
-                Start with a Free 15-Minute Discovery Call
+                Start with a Free Strategy Call
               </h3>
               <p className="text-muted-foreground">
-                No obligation. Let's explore how AI can help your business.
+                No obligation. Let's explore how AI can help your organisation.
               </p>
             </div>
             <Button variant="hero" size="lg" asChild>
@@ -70,7 +70,7 @@ const Services = () => {
         </div>
 
         {/* Services Grid */}
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 mb-12">
           {services.map((service) => (
             <div
               key={service.title}
@@ -87,6 +87,36 @@ const Services = () => {
               </p>
             </div>
           ))}
+        </div>
+
+        {/* Charity & Nonprofit Support - GoFundraise Partnership */}
+        <div className="bg-muted border border-border rounded-2xl p-8 sm:p-10">
+          <div className="flex flex-col md:flex-row items-start gap-8">
+            <div className="w-14 h-14 rounded-xl bg-accent/10 flex items-center justify-center flex-shrink-0">
+              <HeartHandshake className="w-7 h-7 text-accent" />
+            </div>
+            <div className="flex-1">
+              <h3 className="font-display font-bold text-xl text-foreground mb-3">
+                Charity & Nonprofit Support
+              </h3>
+              <p className="text-muted-foreground mb-4 leading-relaxed">
+                I support charities with operational AI, process optimisation, and internal systems design.
+              </p>
+              <p className="text-muted-foreground mb-6 leading-relaxed">
+                For grant research, funder targeting, and funding intelligence services, these are delivered exclusively via{" "}
+                <a href="https://gofundraise.ai" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">
+                  GoFundraise.ai
+                </a>
+                , a specialist platform I co-founded.
+              </p>
+              <Button variant="outline" size="lg" asChild>
+                <a href="https://gofundraise.ai" target="_blank" rel="noopener noreferrer" className="group">
+                  Visit GoFundraise.ai
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </a>
+              </Button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
