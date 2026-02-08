@@ -28,7 +28,7 @@ const About = () => {
               processes into simple, reliable, AI-powered workflows that free teams to focus on 
               impact rather than manual tasks.
             </p>
-            <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+            <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
               Paul believes AI should feel supportive, accessible, and genuinely useful. His mission 
               is to give small businesses and charities tools that save time, reduce costs, and help 
               overstretched teams work with confidence. For charity-specific funding intelligence 
@@ -37,6 +37,15 @@ const About = () => {
                 GoFundraise.ai
               </a>.
             </p>
+
+            {/* Boundary Statement */}
+            <div className="bg-muted rounded-xl p-5 border border-border mb-8">
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Paul Briggs is a co-founder of GoFundraise.ai. All funding intelligence and grant research 
+                services for the charity sector are delivered through GoFundraise.ai to ensure platform alignment, 
+                shared IP development, and strategic consistency.
+              </p>
+            </div>
 
             {/* Founder Info */}
             <div className="bg-card rounded-xl p-6 border border-border shadow-soft">
