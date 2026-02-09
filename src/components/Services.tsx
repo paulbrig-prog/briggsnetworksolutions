@@ -104,7 +104,7 @@ const Services = () => {
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 For grant research, funder targeting, and funding intelligence services, these are delivered exclusively via{" "}
-                <a href="https://gofundraise.ai" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">
+                <a href="https://gofundraise.ai" target="_blank" rel="noopener noreferrer" className="text-foreground underline hover:opacity-70 font-semibold">
                   GoFundraise.ai
                 </a>
                 , a specialist platform I co-founded.
