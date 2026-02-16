@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Brain, Workflow, Link2, BarChart3, HeartHandshake } from "lucide-react";
+import { ArrowRight, Brain, Workflow, Link2, BarChart3, HeartHandshake, Sparkles } from "lucide-react";
 import servicesImage from "@/assets/services-collaboration.jpg";
 
 const Services = () => {
@@ -87,6 +87,25 @@ const Services = () => {
               </p>
             </div>
           ))}
+        </div>
+
+        {/* Ready-Made GPTs */}
+        <div className="bg-accent/10 border border-accent/20 rounded-2xl p-8 sm:p-10 mb-12 text-center">
+          <div className="max-w-2xl mx-auto">
+            <Sparkles className="w-10 h-10 text-accent mx-auto mb-4" />
+            <h3 className="font-display font-bold text-2xl text-foreground mb-3">
+              Ready-Made GPTs to Improve Your Life
+            </h3>
+            <p className="text-muted-foreground mb-6">
+              Browse our collection of pre-built GPT tools designed to boost your productivity, streamline your workflows, and make everyday tasks easier.
+            </p>
+            <Button variant="hero" size="lg" asChild>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                Browse GPTs
+                <ArrowRight className="w-4 h-4" />
+              </a>
+            </Button>
+          </div>
         </div>
 
         {/* Charity & Nonprofit Support - GoFundraise Partnership */}
