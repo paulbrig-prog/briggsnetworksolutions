@@ -42,9 +42,16 @@ const Hero = () => {
             I help organisations modernise their operations using practical AI, 
             intelligent automation, and structured systems design.
           </p>
-          <p className="text-lg sm:text-xl text-primary-foreground/70 mb-10 max-w-2xl mx-auto leading-relaxed animate-slide-up" style={{ animationDelay: "0.15s" }}>
+          <p className="text-lg sm:text-xl text-primary-foreground/70 mb-4 max-w-2xl mx-auto leading-relaxed animate-slide-up" style={{ animationDelay: "0.15s" }}>
             From small businesses to mission-driven organisations, I build solutions that 
             remove repetitive work, improve visibility, and unlock growth.
+          </p>
+          <p className="text-lg sm:text-xl text-primary-foreground/70 mb-10 max-w-2xl mx-auto leading-relaxed animate-slide-up" style={{ animationDelay: "0.18s" }}>
+            I also offer{" "}
+            <a href="#gpt-store" className="text-accent underline hover:opacity-80 font-semibold">
+              ready-made GPT tools
+            </a>
+            {" "}you can browse and buy to instantly boost your productivity.
           </p>
 
           {/* GoFundraise Partnership */}
