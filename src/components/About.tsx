@@ -31,19 +31,16 @@ const About = () => {
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
               Paul believes AI should feel supportive, accessible, and genuinely useful. His mission 
               is to give small businesses and charities tools that save time, reduce costs, and help 
-              overstretched teams work with confidence. For charity-specific funding intelligence 
-              and grant research, Paul works in partnership with{" "}
-              <a href="https://gofundraise.ai" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">
-                GoFundraise.ai
-              </a>.
+              overstretched teams work with confidence. In addition to workflow automation, Paul directly 
+              helps charities and non-profits find and secure funding through dedicated grant research 
+              and intelligent funder analysis.
             </p>
 
-            {/* Boundary Statement */}
-            <div className="bg-muted rounded-xl p-5 border border-border mb-8">
+            {/* Funding Support Statement */}
+            <div className="bg-card rounded-xl p-5 border border-border mb-8 shadow-soft">
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Paul Briggs is a co-founder of GoFundraise.ai. All funding intelligence and grant research 
-                services for the charity sector are delivered through GoFundraise.ai to ensure platform alignment, 
-                shared IP development, and strategic consistency.
+                Paul provides end-to-end funding support for charities — from uncovering high-probability grant opportunities 
+                and funder criteria to streamlining application workflows so non-profits can maximise their impact.
               </p>
             </div>
 

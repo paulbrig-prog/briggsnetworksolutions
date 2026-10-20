@@ -54,10 +54,10 @@ const Hero = () => {
             {" "}you can browse and buy to instantly boost your productivity.
           </p>
 
-          {/* GoFundraise Partnership */}
+          {/* Charity Funding Support */}
           <div className="mb-10 animate-slide-up" style={{ animationDelay: "0.2s" }}>
-            <p className="text-sm text-primary-foreground/60">
-              For specialist charity funding intelligence and grant research, I work in partnership with GoFundraise.ai.
+            <p className="text-sm text-primary-foreground/75 font-medium">
+              Helping charities and non-profits uncover grant opportunities and secure vital funding.
             </p>
           </div>
 
@@ -70,8 +70,8 @@ const Hero = () => {
               </a>
             </Button>
             <Button variant="heroOutline" size="xl" asChild>
-              <a href="https://gofundraise.ai" target="_blank" rel="noopener noreferrer" className="group">
-                Explore Funding Intelligence
+              <a href="#charity-funding" className="group">
+                Charity Funding Support
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
             </Button>

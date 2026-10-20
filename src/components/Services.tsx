@@ -108,29 +108,25 @@ const Services = () => {
           </div>
         </div>
 
-        {/* Charity & Nonprofit Support - GoFundraise Partnership */}
-        <div className="bg-muted border border-border rounded-2xl p-8 sm:p-10">
+        {/* Charity & Nonprofit Funding & Support */}
+        <div id="charity-funding" className="bg-muted border border-border rounded-2xl p-8 sm:p-10">
           <div className="flex flex-col md:flex-row items-start gap-8">
             <div className="w-14 h-14 rounded-xl bg-accent/10 flex items-center justify-center flex-shrink-0">
               <HeartHandshake className="w-7 h-7 text-accent" />
             </div>
             <div className="flex-1">
               <h3 className="font-display font-bold text-xl text-foreground mb-3">
-                Charity & Nonprofit Support
+                Charity & Nonprofit Funding Support
               </h3>
               <p className="text-muted-foreground mb-4 leading-relaxed">
-                I support charities with operational AI, process optimisation, and internal systems design.
+                I help charities and non-profit organisations looking to find funding, identify eligible grants, and streamline their operations with practical AI.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                For grant research, funder targeting, and funding intelligence services, these are delivered exclusively via{" "}
-                <a href="https://gofundraise.ai" target="_blank" rel="noopener noreferrer" className="text-foreground underline hover:opacity-70 font-semibold">
-                  GoFundraise.ai
-                </a>
-                , a specialist platform I co-founded.
+                Whether you need in-depth grant research, funder targeting, funding intelligence, or internal workflow automation, I work directly with you from discovery to delivery to help you secure the resources you need.
               </p>
-              <Button variant="outline" size="lg" asChild>
-                <a href="https://gofundraise.ai" target="_blank" rel="noopener noreferrer" className="group">
-                  Visit GoFundraise.ai
+              <Button variant="default" size="lg" asChild>
+                <a href="#contact" className="group">
+                  Discuss Funding Support
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </a>
               </Button>

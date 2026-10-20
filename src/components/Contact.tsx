@@ -63,7 +63,7 @@ const Contact = () => {
 
           {/* Trust Message */}
           <p className="text-center text-primary-foreground/60 text-sm mt-8">
-            Trusted across technology, property, professional services, and the charity sector · Funding intelligence via GoFundraise.ai
+            Trusted across technology, property, professional services, and the charity sector · Direct charity funding intelligence & grant research
           </p>
         </div>
       </div>

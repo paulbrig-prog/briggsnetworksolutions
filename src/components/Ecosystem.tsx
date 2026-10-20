@@ -40,20 +40,20 @@ const Ecosystem = () => {
               </Button>
             </div>
 
-            {/* GoFundraise Pillar */}
+            {/* Charity Funding Pillar */}
             <div className="bg-card border border-border rounded-2xl p-8 shadow-soft">
               <div className="w-14 h-14 rounded-xl bg-accent/10 flex items-center justify-center mb-6">
                 <Search className="w-7 h-7 text-accent" />
               </div>
               <h3 className="font-display font-bold text-xl text-foreground mb-3">
-                Funding Intelligence
+                Charity Funding & Grants
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Delivered via GoFundraise.ai. Grant research, funder targeting, and specialist funding intelligence for charities.
+                Specialist grant research, funder targeting, and intelligent funding discovery to help charities secure vital capital.
               </p>
               <Button variant="outline" size="default" asChild>
-                <a href="https://gofundraise.ai" target="_blank" rel="noopener noreferrer" className="group">
-                  Visit GoFundraise.ai
+                <a href="#charity-funding" className="group">
+                  Explore Funding Support
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </a>
               </Button>
@@ -66,9 +66,9 @@ const Ecosystem = () => {
               <Layers className="w-7 h-7 text-accent" />
             </div>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Through Briggs Network Solutions and GoFundraise.ai, organisations can access both 
-              AI implementation and specialist funding intelligence within a connected ecosystem. 
-              This ensures clarity, focus, and long-term scalability.
+              Through Briggs Network Solutions, charities and ambitious organisations can access both 
+              practical AI automation and dedicated charity funding intelligence in one integrated service. 
+              This ensures clarity, focus, and long-term sustainability.
             </p>
           </div>
         </div>
